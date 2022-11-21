@@ -24,22 +24,18 @@ h2{
 	color: #E7E7E7;
 	margin-bottom: 2px;
 }
-div{
-	display: inline;
-}
 
 textarea {
 	width: 100%;
 	height: 350px;
 	font-size: 1rem;
 	padding: 10px;
-	background-color: #5e5c5c;
+	background-color: #1a1818d8;
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	resize: none;
 }
-
 
 .container{
 	display: inline-block;
@@ -63,19 +59,35 @@ textarea {
 	margin: 2px;
 }
 
+.downBtn {
+	text-align: center;
+}
+
 .iframe-container{
 	background: white;
 	width: 90%;
 	display: inline-block;
-	height: 100%;
+	height: 50%;
 	resize: both;
 	margin: auto;
 	margin-top: 5px;
 	margin-left: 4%;
+	overflow: auto;
 }
 
 #viewer{
 	width: 100%;
 	resize: boths;
 	height: 100%;
+}
+
+#downloadButton {
+	background-color: #ff4242a5;
+	color: #fff;
+	font-size: 13px;
+	height: 26px;
+	border: none;
+	border-radius: 2px;
+	width: 100px;
+	cursor: pointer;
 }
